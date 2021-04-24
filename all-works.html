@@ -1,0 +1,234 @@
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="GuiZar Dev - ARRUMAR DESCRICAO">
+    <meta name="keywords" content="GuiZar Dev, Html ARRUMAR KEYWORDS">
+    <meta name="author" content="GuiZar Dev">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>GuiZar Development</title>
+    <!-- Favicon -->
+    <link href="img/favicon.png" type="image/png" rel="icon">
+
+    <!-- All CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/ionicons.css" rel="stylesheet" type="text/css">
+    <link href="css/mobiriseicons.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="css/splitting.css" rel="stylesheet" type="text/css">
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="top" data-spy="scroll" data-target="#menu_items">
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <!--  start page loader  -->
+    <div id="preloader">
+        <div class="scroll-static"></div>
+    </div>
+    <!--  end page loader  -->
+    <!-- start header  -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-8">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logopng.png" alt="Guizar Development"></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-4">
+                    <div class="back_to_home">
+                        <a href="index.html"><i class="ion-android-arrow-back"></i> <?php echo $back; ?></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header  -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- start work wrapper -->
+                <div id="works" class="work_wrapper work_wrapper_page">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <!-- section title -->
+                            <div class="text-center">
+                                <h2 class="section_title"><?php echo $works; ?></h2>
+                            </div>
+							
+							<!-- work filter start -->
+							<div class="row no-gutters">
+								<div class="col-12">
+									<div class="filter-buttons">
+                                        <button class="active" data-filter="*"><?php echo $works_filter1; ?></button>
+                                        <button data-filter=".web"><?php echo $works_filter2; ?></button>
+                                        <button data-filter=".uiux"><?php echo $works_filter3; ?></button>
+                                        <button data-filter=".branding"><?php echo $works_filter4; ?></button>
+									</div>
+								</div>
+							</div>
+							<!-- work filter end -->
+							
+                            <div class="row works">
+
+                                <!-- work single item  -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 web">
+                                    <div class="work_single_item">
+                                        <img class="img-fluid" src="img/works/daniwash.png" alt="">
+                                        <div class="work_info">
+                                            <h6 title="<?php echo $work10; ?>"><?php echo $work10; ?></h6>
+                                            <p><?php echo $work_data10; ?></p>
+                                            <a class="ajax-popup-link" href="./daniwash.html"><span
+                                                    class="ion-android-expand"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- work single item  -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 uiux">
+                                    <div class="work_single_item">
+                                        <img class="img-fluid" src="img/works/procure.png" alt="">
+                                        <div class="work_info">
+                                            <h6 title="<?php echo $work1; ?>"><?php echo $work1; ?></h6>
+                                            <p><?php echo $work_data1; ?></p>
+                                            <a class="ajax-popup-link" href="./procure.html"><span
+                                                    class="ion-android-expand"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- work single item  -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 web">
+                                    <div class="work_single_item">
+                                        <img class="img-fluid" src="img/works/carolina.png" alt="">
+                                        <div class="work_info">
+                                            <h6 title="<?php echo $work2; ?>"><?php echo $work2; ?></h6>
+                                            <p><?php echo $work_data2; ?></p>
+                                            <a class="ajax-popup-link" href="./carolina.html"><span
+                                                    class="ion-android-expand"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- work single item  -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 branding">
+                                    <div class="work_single_item">
+                                        <img class="img-fluid" src="img/works/cabecote.png" alt="">
+                                        <div class="work_info">
+                                            <h6 title="<?php echo $work3; ?>"><?php echo $work3; ?></h6>
+                                            <p><?php echo $work_data3; ?></p>
+                                            <a class="ajax-popup-link" href="./cabecote.html"><span
+                                                    class="ion-android-expand"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- work single item  -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 web">
+                                    <div class="work_single_item">
+                                        <img class="img-fluid" src="img/works/eparking.png" alt="">
+                                        <div class="work_info">
+                                            <h6 title="<?php echo $work4; ?>"><?php echo $work4; ?></h6>
+                                            <p><?php echo $work_data4; ?></p>
+                                            <a class="ajax-popup-link" href="./eparking.html"><span
+                                                    class="ion-android-expand"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- work single item  -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 web">
+                                    <div class="work_single_item">
+                                        <img class="img-fluid" src="img/works/campeche.png" alt="">
+                                        <div class="work_info">
+                                            <h6 title="<?php echo $work6; ?>"><?php echo $work6; ?></h6>
+                                            <p><?php echo $work_data6; ?></p>
+                                            <a class="ajax-popup-link" href="./campeche.html"><span
+                                                    class="ion-android-expand"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- work single item  -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 web">
+                                    <div class="work_single_item">
+                                        <img class="img-fluid" src="img/works/trick.png" alt="">
+                                        <div class="work_info">
+                                            <h6 title="<?php echo $work7; ?>"><?php echo $work7; ?></h6>
+                                            <p><?php echo $work_data7; ?></p>
+                                            <a class="ajax-popup-link" href="./trick.html"><span
+                                                    class="ion-android-expand"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- work single item  -->
+                                <!-- work single item  -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 branding">
+                                    <div class="work_single_item">
+                                        <img class="img-fluid" src="img/works/idp.png" alt="">
+                                        <div class="work_info">
+                                            <h6 title="<?php echo $work9; ?>"><?php echo $work9; ?></h6>
+                                            <p><?php echo $work_data9; ?></p>
+                                            <a class="ajax-popup-link" href="./idp.html"><span
+                                                    class="ion-android-expand"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- work single item  -->
+                                <!-- work single item  -->
+                                <div class="col-lg-4 col-md-6 col-sm-6 web">
+                                    <div class="work_single_item">
+                                        <img class="img-fluid" src="img/works/rochamartins.png" alt="">
+                                        <div class="work_info">
+                                            <h6 title="<?php echo $work8; ?>"><?php echo $work8; ?></h6>
+                                            <p><?php echo $work_data8; ?></p>
+                                            <a class="ajax-popup-link" href="./rochamartins.html"><span
+                                                    class="ion-android-expand"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- work single item  -->
+                                <!-- view all work button  -->
+                                <!-- <div class="col-lg-12">
+                                    <a class="button slide-vertical" data-splitting href="all-works.html"><?php echo $next_page; ?></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end work wrapper -->
+                <!-- start footer wrapper -->
+                <footer>
+                    <a href="#top" class="go_top">
+                        <i class="ion-ios-arrow-thin-up"></i>
+                    </a>
+                    <!-- start social links -->
+                    <!-- <ul class="social_links">
+                        <li><a href="#"><span class="ion-social-twitter"></span></a></li>
+                        <li><a href="#"><span class="ion-social-instagram-outline"></span></a></li>
+                        <li><a href="#"><span class="ion-social-linkedin"></span></a></li>
+                        <li><a href="#"><span class="ion-social-facebook"></span></a></li>
+                        <li><a href="#"><span class="ion-social-dribbble-outline"></span></a></li>
+                    </ul> -->
+                    <p class="copyright"><?php echo $footer; ?></p>
+                </footer>
+                <!-- end footer wrapper -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ========  All JS Here ========  -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/ajax-mail.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
