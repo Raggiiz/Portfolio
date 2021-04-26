@@ -157,6 +157,6 @@ $contact_btn = "Enviar";
 
 //Footer
 
-$footer = "&copy; 2020 <span>GuiZar Development</span>. Todos direitos reservados.";
+$footer = "&copy; 2021 | Raggi Izar";
 
 ?>
